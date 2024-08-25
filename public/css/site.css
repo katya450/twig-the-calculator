@@ -1,0 +1,69 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  grid-auto-rows: minmax(100px, auto);  
+  justify-content: center;
+}
+
+.number-button {
+  font-size: xx-large;
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-button {
+  font-size: xx-large;
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+}
+
+.result-view {
+  grid-column: 1 / 5;
+  background-color: white;
+  font-size: xx-large;
+  text-align: right;
+}
