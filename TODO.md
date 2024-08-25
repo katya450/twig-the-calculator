@@ -21,9 +21,10 @@ The second easiest of them all.
 ### Divide numbers: Make the / button work
 
 Note that the order matters in this too!
+Should the result be limited to two decimals, also?
 
 
-### Divide numbers: Make the = button work
+### Calculate numbers: Make the = button work
 
 Could this be a recursion?
 Note that this might create an infinite loop quite easily ;) 
